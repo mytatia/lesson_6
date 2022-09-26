@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.ttf");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"),
+    url("../fonts/Lato-Black.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
+  font-style: normal;
+}
+
+main {
+  width: 100%;
+}
+
+.container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #1e212c;
+  font-size: 46px;
+  line-height: 59.8px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 60px;
+}
+.section__one {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.section__two {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 25.6px;
+  margin-bottom: 48px;
+}
+.section__two,
+.section__four,
+.section__five,
+.section__six {
+  color: #424551;
+  line-height: 25.6px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+.section_one,
+.section__three {
+  color: #1e212c;
+}
+.first__p {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.section__three {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 48px;
+  padding-left: 58px;
+}
+.section__four {
+  margin-bottom: 24px;
+}
+
+.section__five {
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+.section__five p {
+  display: inline-block;
+  max-width: 568px;
+  padding-left: 16px;
+  margin-bottom: 4px;
+}
+.section__six {
+  margin-bottom: 92px;
+}
+
+/* Lesson 6 - Part II */
+
+.part__two {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hello__kitty {
+  display: block;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 10px rgb(198, 123, 200);
+  margin-bottom: 100px;
+  opacity: 0.8;
+}
+
+.border {
+  max-width: 700px;
+  height: 150px;
+  padding: 20px;
+  color: blue;
+  font-weight: 600;
+  background-color: yellow;
+  border-top: 5px solid blue;
+  border-bottom: 5px dotted red;
+  border-right: 5px dashed rgb(243, 22, 121);
+  border-left: 5px double green;
+  margin-bottom: 50px;
+}
+.overflow {
+  max-width: 600px;
+  max-height: 200px;
+  overflow: scroll;
+  font-style: oblique;
+  font-weight: 600;
+  outline: 5px solid #d261ef;
+  margin-bottom: 50px;
+  box-shadow: inset 10px 10px 10px 10px rgb(129, 123, 200);
+}
+.hidden {
+  visibility: hidden;
+}
+.inline div {
+  display: inline;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #1c2135;
+  font-size: 70px;
+  background-color: aqua;
+}
+
+.fancy {
+  max-width: 700px;
+  max-height: 700px;
+  border-radius: 66% 34% 7% 93% / 55% 67% 33% 45%;
+  outline: 5px solid #ef1818;
+}
